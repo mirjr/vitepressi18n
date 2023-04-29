@@ -9,11 +9,11 @@ export const en: DefaultTheme.Sidebar = {
       items: [
         {
           text: 'Introduction',
-          link: '/guide/introduction',
+          link: '/pages/guide/introduction',
         },
         {
           text: 'Getting Started',
-          link: '/guide/',
+          link: '/pages/guide/',
         },
       ],
     },
@@ -24,15 +24,15 @@ export const en: DefaultTheme.Sidebar = {
       items: [
         {
           text: 'Configure Template',
-          link: '/config/',
+          link: '/pages/config/',
         },
         {
           text: 'Show Related',
-          link: '/config/show',
+          link: '/pages/config/show',
         },
         {
           text: 'Engineering Related',
-          link: '/config/engineer',
+          link: '/pages/config/engineer',
         },
       ],
     },
@@ -41,7 +41,7 @@ export const en: DefaultTheme.Sidebar = {
       items: [
         {
           text: 'FAQ',
-          link: '/faq/',
+          link: '/pages/faq/',
         },
       ],
     },

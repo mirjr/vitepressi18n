@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: Configs
-      link: /config/
+      link: /pages/config/
     - theme: alt
       text: Guide
-      link: /guide/
+      link: /pages/guide/
   image:
     src: /logo.svg
 ---
