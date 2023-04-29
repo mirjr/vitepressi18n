@@ -3,12 +3,12 @@ import type { DefaultTheme } from 'vitepress'
 export const en: DefaultTheme.NavItem[] = [
   {
     text: 'Guide',
-    link: '/guide/',
-    activeMatch: '/guide/',
+    link: '/pages/guide/',
+    activeMatch: '/pages/guide/',
   },
   {
     text: 'Config',
-    link: '/config/',
-    activeMatch: '/config/',
+    link: '/pages/config/',
+    activeMatch: '/pages/config/',
   },
 ]

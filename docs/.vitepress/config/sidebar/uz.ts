@@ -9,11 +9,11 @@ export const uz: DefaultTheme.Sidebar = {
       items: [
         {
           text: 'Kirish',
-          link: '/uz/guide/introduction',
+          link: '/uz/pages/guide/introduction',
         },
         {
           text: 'Boshlash',
-          link: '/uz/guide/',
+          link: '/uz/pages/guide/',
         },
       ],
     },
@@ -24,15 +24,15 @@ export const uz: DefaultTheme.Sidebar = {
       items: [
         {
           text: 'Shablonni sozlash',
-          link: '/uz/config/',
+          link: '/uz/pages/config/',
         },
         {
           text: 'Tegishli ko\'rsatish',
-          link: '/uz/config/show',
+          link: '/uz/pages/config/show',
         },
         {
           text: 'Muhandislik bilan bog\'liq',
-          link: '/uz/config/engineer',
+          link: '/uz/pages/config/engineer',
         },
       ],
     },
@@ -41,7 +41,7 @@ export const uz: DefaultTheme.Sidebar = {
       items: [
         {
           text: 'FAQ',
-          link: '/uz/faq/',
+          link: '/uz/pages/faq/',
         },
       ],
     },

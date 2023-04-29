@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: Konfiglar
-      link: /uz/config/
+      link: /uz/pages/config/
     - theme: alt
       text: Boshlash
-      link: /uz/guide/
+      link: /uz/pages/guide/
   image:
     src: /logo.svg
 ---
