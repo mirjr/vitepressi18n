@@ -1,12 +1,24 @@
 {
+  "name": "i18n",
+  "version": "1.0.0",
+  "description": "mirjr's blog",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
+  "keywords": [
+    "vitepress",
+    "blog"
+  ],
+  "author": "mirjr <mirjr17@outlook.com>",
+  "license": "MIT",
   "devDependencies": {
     "flexsearch": "^0.7.31",
     "vitepress": "^1.0.0-alpha.74",
     "vitepress-plugin-search": "^1.0.4-alpha.20"
+  },
+  "dependencies": {
+    "gitalk": "^1.8.0"
   }
 }
