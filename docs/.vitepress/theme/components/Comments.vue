@@ -2,7 +2,7 @@
   <div id="gitalk-container"></div>
 </template>
 <script lang="ts" setup>
-import "gitalk/dist/gitalk.css";
+import "../gitalk.css";
 import Gitalk from "gitalk";
 import { onContentUpdated, useRouter } from "vitepress";
 
@@ -19,13 +19,13 @@ onContentUpdated(() => {
   // reset gittalk element for update
   deleteChild();
   const gitalk = new Gitalk({
-    clientID: "6d4af1944a0779e8055e",
-    clientSecret: "73de915f75906ad6e9d7ff655c075eb70503c457",
-    repo: "blog-comments",
+    clientID: "897bb1919061fde8e257",
+    clientSecret: "e98ce04604b10d8438f2671f9de8f5f50d781c58",
+    repo: "i18n-comments",
     owner: "mirjr",
     admin: ["mirjr"],
     id: location.pathname.substring(0, 50), // Ensure uniqueness and length less than 50
-    language: "uz-UZ",
+    language: "en-US",
     distractionFreeMode: true, // Facebook-like distraction free mode
   });
   gitalk.render("gitalk-container");

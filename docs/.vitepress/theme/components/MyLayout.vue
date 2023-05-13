@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <template #aside-outline-before>
+    <template #doc-after>
       <Comments />
     </template>
   </Layout>
